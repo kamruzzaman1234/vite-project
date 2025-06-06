@@ -1,7 +1,8 @@
+import './NewsLetter.css'
 const NewsLetter = () => {
   return (
     <section
-      className="bg-green-50 
+      className="bg-green-50 background-img
       bg-cover bg-fixed bg-center py-[80px]"
     >
         <div className="">

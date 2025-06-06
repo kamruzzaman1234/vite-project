@@ -6,11 +6,13 @@ import Map from "../../components/Home_Component/Map/Map";
 import NewsLetter from "../../components/Home_Component/NewsLetter/NewsLetter";
 import Popular from "../../components/Home_Component/Popular_Food/Popular";
 import Team from "../../components/Home_Component/TeamArea/Team";
+import Testimonial from "../../components/Home_Component/Testimonila/Testimonial";
 
 const Home = ()=>{
     return(
         <div>
             <Banner></Banner>
+            <Testimonial></Testimonial>
             <Feature></Feature>
             <About></About>
             <Popular></Popular>
