@@ -1,4 +1,4 @@
-import { GiAmpleDress } from "react-icons/gi";
+import { LuBanana } from "react-icons/lu";
 const Feature = ()=>{
     return(
         <section className="py-[80px] bg-white">
@@ -10,52 +10,56 @@ const Feature = ()=>{
                     <h2 className="text-[32px] leading-[36px] font-bold">What You Provide You</h2>
                 </div>
                 <div className="grid grid-cols-4 gap-6">
-                    <div className="py-[40px] px-[10px] flex flex-col gap-[10px] border-b-4 border-t-4 border-t-yellow-400 border-b-yellow-500 shadow-lg
+                    <div className="py-[40px] px-[10px] flex flex-col gap-[10px] border-b-4
+                     border-t-4 border-t-green-400 border-b-green-500 shadow-lg
                        justify-center items-center">
                         <div>
-                            <GiAmpleDress className="text-[80px] text-warning"/>
+                            <LuBanana className="text-[80px] text-warning"/>
                         </div>
                         <div>
-                            <h3 className="text-black text-[22px] leading-[32px] font-bold uppercase text-center">Drop Solder</h3>
+                            <h3 className="text-black text-[22px] leading-[32px] font-bold uppercase text-center">Banana</h3>
                         </div>
                         <div>
                             <p className="text-black text-center">Lorem ispum dolar set amet and concepteture
                              and other site for the dress</p>
                         </div>
                     </div>
-                    <div className="py-[40px] px-[10px] flex flex-col gap-[10px] border-b-4 border-t-4 border-t-yellow-400 border-b-yellow-500 shadow-lg
+                    <div className="py-[40px] px-[10px] flex flex-col gap-[10px]
+                     border-b-4 border-t-4 border-t-green-400 border-b-green-500 shadow-lg
                        justify-center items-center">
                         <div>
-                            <GiAmpleDress className="text-[80px] text-warning"/>
+                            <LuBanana className="text-[80px] text-warning"/>
                         </div>
                         <div>
-                            <h3 className="text-black text-[22px] leading-[32px] font-bold uppercase text-center">Drop Solder</h3>
+                            <h3 className="text-black text-[22px] leading-[32px] font-bold uppercase text-center">Banana</h3>
                         </div>
                         <div>
                             <p className="text-black text-center">Lorem ispum dolar set amet and concepteture
                              and other site for the dress</p>
                         </div>
                     </div>
-                    <div className="py-[40px] px-[10px] flex flex-col gap-[10px] border-b-4 border-t-4 border-t-yellow-400 border-b-yellow-500 shadow-lg
+                    <div className="py-[40px] px-[10px] flex flex-col gap-[10px] 
+                    border-b-4 border-t-4 border-t-green-400 border-b-green-500 shadow-lg
                        justify-center items-center">
                         <div>
-                            <GiAmpleDress className="text-[80px] text-warning"/>
+                            <LuBanana className="text-[80px] text-warning"/>
                         </div>
                         <div>
-                            <h3 className="text-black text-[22px] leading-[32px] font-bold uppercase text-center">Drop Solder</h3>
+                            <h3 className="text-black text-[22px] leading-[32px] font-bold uppercase text-center">Banana</h3>
                         </div>
                         <div>
                             <p className="text-black text-center">Lorem ispum dolar set amet and concepteture
                              and other site for the dress</p>
                         </div>
                     </div>
-                    <div className="py-[40px] px-[10px] flex flex-col gap-[10px] border-b-4 border-t-4 border-t-yellow-400 border-b-yellow-500 shadow-lg
+                    <div className="py-[40px] px-[10px] flex flex-col gap-[10px] 
+                    border-b-4 border-t-4 border-t-green-400 border-b-green-500 shadow-lg
                        justify-center items-center">
                         <div>
-                            <GiAmpleDress className="text-[80px] text-warning"/>
+                            <LuBanana className="text-[80px] text-warning"/>
                         </div>
                         <div>
-                            <h3 className="text-black text-[22px] leading-[32px] font-bold uppercase text-center">Drop Solder</h3>
+                            <h3 className="text-black text-[22px] leading-[32px] font-bold uppercase text-center">Banana</h3>
                         </div>
                         <div>
                             <p className="text-black text-center">Lorem ispum dolar set amet and concepteture

@@ -3,18 +3,32 @@ import { useEffect, useState } from "react";
 const About = ()=>{
     const [count, setCount] = useState(0)
 
+    // useEffect(()=>{
+    //     const interval = setInterval(()=>{
+    //         setCount(prev=>{
+    //             if(prev >= 8){
+    //                 clearInterval(interval)
+    //                 return prev
+    //             }
+    //             return prev + 1
+    //         });
+    //     }, 500)
+
+    //     return ()=> clearInterval(interval)
+    // }, [])
+
     useEffect(()=>{
         const interval = setInterval(()=>{
             setCount(prev=>{
-                if(prev >= 8){
+                if(prev>=8){
                     clearInterval(interval)
                     return prev
                 }
                 return prev + 1
-            });
-        }, 500)
-
+            })
+        }, 300)
         return ()=> clearInterval(interval)
+
     }, [])
 
 
@@ -29,7 +43,7 @@ const About = ()=>{
                             </div>
                             
                             <div className="absolute top-[40%] flex flex-col gap-[8px] 
-                            justify-center items-center right-[-70px] py-[20px] px-[20px] bg-warning">
+                            justify-center items-center right-[-70px] py-[30px] px-[20px] bg-warning">
                                 <h3 className="text-[26px] font-bold">{count}</h3>
                                 <h4>Years Experience</h4>
                         </div>

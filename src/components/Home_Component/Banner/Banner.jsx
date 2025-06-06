@@ -17,7 +17,7 @@ const Banner = ()=>{
                         </div>
                         <div className="w-[700px]">
                             <div className="w-full h-[500px]">
-                                <img className="w-full h-full" src="https://i.ibb.co/gLWgQzYr/pexels-suzyhazelwood-2536965-removebg-preview.png" 
+                                <img className="w-full h-full object-cover" src="https://i.ibb.co/0yWd6Spx/background-Img.png" 
                             alt="banner-img" />
                             </div>
                         </div>
