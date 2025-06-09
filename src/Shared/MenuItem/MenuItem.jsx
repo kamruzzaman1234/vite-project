@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const MenuItem = ({items})=>{
     const {name, image, price, recipe} = items
     return(
@@ -17,6 +19,10 @@ const MenuItem = ({items})=>{
                     </div>
 
                 </div>
+                <div className="mt-[10px]">
+                    <Link to="/order" className="btn btn-black">Order Now</Link>
+                </div>
+
         </section>
     )
 }

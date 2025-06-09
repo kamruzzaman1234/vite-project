@@ -13,23 +13,23 @@ const Navbar = ()=>{
       <ul
         tabIndex={0}
         className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-        <li><Link to="\" className="text-[16px] font-semibold">Home</Link></li>
-        <li><Link to="\" className="text-[16px] font-semibold">Products</Link></li>
-        <li><Link to="\" className="text-[16px] font-semibold">Service</Link></li>
-        <li><Link to="\" className="text-[16px] font-semibold">Page</Link></li>
-        <li><Link to="\" className="text-[16px] font-semibold">Contact</Link></li>
+        <li><Link to="/" className="text-[16px] font-semibold">Home</Link></li>
+        <li><Link to="" className="text-[16px] font-semibold">Products</Link></li>
+        <li><Link to="" className="text-[16px] font-semibold">Service</Link></li>
+        <li><Link to="order" className="text-[16px] font-semibold">Order</Link></li>
+        <li><Link to="" className="text-[16px] font-semibold">Contact</Link></li>
         
       </ul>
     </div>
-    <a className="btn btn-ghost text-xl">Shop<sup className="text-warning">Live</sup> </a>
+    <Link to="/" className="btn btn-ghost text-xl">Shop<sup className="text-warning">Live</sup> </Link>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
-      <li><Link to="\" className="text-[16px] font-semibold uppercase">Home</Link></li>
-      <li><Link to="\" className="text-[16px] font-semibold uppercase">Products</Link></li>
-      <li><Link to="\" className="text-[16px] font-semibold uppercase">Service</Link></li>
-      <li><Link to="\" className="text-[16px] font-semibold uppercase">Page</Link></li>
-      <li><Link to="\" className="text-[16px] font-semibold uppercase">Contact</Link></li>
+      <li> <Link to="/" className="text-[16px] font-semibold uppercase">Home</Link></li>
+      <li><Link to="" className="text-[16px] font-semibold uppercase">Products</Link></li>
+      <li><Link to="" className="text-[16px] font-semibold uppercase">Service</Link></li>
+      <li><Link to="order" className="text-[16px] font-semibold uppercase">Order</Link></li>
+      <li><Link to="" className="text-[16px] font-semibold uppercase">Contact</Link></li>
     </ul>
   </div>
   <div className="navbar-end flex gap-2">

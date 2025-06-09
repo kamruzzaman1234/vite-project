@@ -5,6 +5,7 @@ import App from './App.jsx'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Main from './LayOut/Main.jsx'
 import Home from './Pages/Home/Home.jsx'
+import Order from './Pages/order/Order.jsx'
 
 
 const routes = createBrowserRouter([
@@ -16,7 +17,10 @@ const routes = createBrowserRouter([
           path:"/",
           element:<Home></Home>
         },
-        
+        {
+          path:"/order",
+          element:<Order></Order>
+        }
       ]
     }
 ])
